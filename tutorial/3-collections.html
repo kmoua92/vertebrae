@@ -114,7 +114,7 @@ var CommentsView = Backbone.View.extend({
       // debugger;
       var html = [
         '<li>',
-          comment.attributes.message,
+          comment.get('message'),
         '</li>'
       ].join('');
 
